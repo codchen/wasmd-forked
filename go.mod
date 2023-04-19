@@ -3,7 +3,7 @@ module github.com/codchen/wasmd
 go 1.17
 
 require (
-	github.com/CosmWasm/wasmvm v0.16.1
+	github.com/CosmWasm/wasmvm v1.2.3
 	github.com/cosmos/cosmos-sdk v0.45.1
 	github.com/cosmos/iavl v0.17.3
 	github.com/cosmos/ibc-go v1.4.0
@@ -24,7 +24,7 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 	github.com/tendermint/tendermint v0.34.14
 	github.com/tendermint/tm-db v0.6.4
@@ -117,7 +117,7 @@ require (
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.63.2 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
